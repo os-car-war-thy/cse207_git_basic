@@ -4,14 +4,18 @@
 
 enum designation{
     LECUTERER,
-    ASSISTANT PROFESSOR,
+    SENIOR_LECTURER,
+    ASSISTANT_PROFESSOR,
+    ASSOCIATE_PROFESSOR,
     PROFESSOR,
 
-}
+};
 
 typedef struct faculty{
-    char *name
-}
+    char *name;
+} faculty;
 
-void add_faculty(){}
+void add_faculty();
+void remove_faculty();
+
 #endif
